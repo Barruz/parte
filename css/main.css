@@ -208,7 +208,8 @@ h2 {
         padding: 7rem 0;
     }
 
-    .section__projects {
+    .section__projects,
+    .section__contacts {
         padding-top: 7rem;
     }
 
