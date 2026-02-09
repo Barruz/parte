@@ -204,10 +204,8 @@ h2 {
 
 @media screen and (min-width: 1024px) {
 
-    .section__profile {
-        padding: 7rem 0;
-    }
 
+    .section__profile,
     .section__projects,
     .section__contacts {
         padding-top: 7rem;
@@ -277,9 +275,6 @@ h2 {
 }
 
 @media screen and (min-width: 1400px) {
-    .text__wrapper {
-        min-height: 45vh;
-    }
 
     #projects .text__wrapper ul {
         width: 80%;
