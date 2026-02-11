@@ -155,6 +155,15 @@ h2 {
     text-decoration: underline;
 }
 
+.geodet {
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+.colleagues__wrapper {
+    margin-top: 2rem;
+}
+
 @media screen and (min-width: 350px) {
     .image__wrapper>img {
         object-position: -400px;
@@ -237,11 +246,26 @@ h2 {
     .section__projects {
         display: flex;
         flex-direction: row-reverse;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .section__projects .image__wrapper__project {
+        width: 30%;
+    }
+
+    .section__projects .text__wrapper {
+        width: 70%;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     .section__projects .image__wrapper__project>img {
         height: 100%;
         object-fit: cover;
+        width: 100%;
+        object-position: bottom;
 
     }
 }
